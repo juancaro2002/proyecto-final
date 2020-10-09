@@ -3,7 +3,7 @@
 class allController {
     
     public function index(){
-        require_once('index.php');
+        require_once('views/all/index.php');
     }
 
 }
