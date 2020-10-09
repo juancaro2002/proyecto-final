@@ -6,10 +6,11 @@ $c = isset($_GET['c']) ? $_GET['c'] : 'all';
 $m = isset($_GET['m']) ? $_GET['m'] : 'index';
 
 
-require_once 'controllers/'.$c.'controller.php';
 $c=$c.'controller';
+require_once 'controllers/'.$c.'.php';
 
-$objeto= new $c();
+
+$objeto = new $c();
 $objeto->$m();
 
 
