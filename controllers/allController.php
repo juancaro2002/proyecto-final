@@ -3,7 +3,7 @@
 class allController {
     
     public function index(){
-        require_once('inicio.php');
+        require_once('index.php');
     }
 
 }
