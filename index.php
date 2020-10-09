@@ -6,7 +6,7 @@ $c = isset($_GET['c']) ? $_GET['c'] : 'all';
 $m = isset($_GET['m']) ? $_GET['m'] : 'index';
 
 
-$c=$c.'controller';
+$c=$c.'Controller';
 require_once 'controllers/'.$c.'.php';
 
 
