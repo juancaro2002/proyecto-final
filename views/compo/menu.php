@@ -13,6 +13,7 @@
 <body>
         <!-- CABECERA/MENU -->
        
+        <header class="index">
         <div class='header-barra' >
             <div class='navegacion'>
                 <div class="MenuOpen">
@@ -22,19 +23,19 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="../../APP/paginasPrincipales/admin.html" ><i class="fas fa-house-user"></i> INICIO </a>
+                                <a href="?c=Admins&m=admins" ><i class="fas fa-house-user"></i> INICIO </a>
                             </li>
                             <li>
-                                <a href="../../APP/componentes/paginas/quienesSomos.html"> ¿QUIENES SOMOS? <i class="fas fa-users"></i></a>
+                                <a href="?c=Pag&m=quienesSomos"> ¿QUIENES SOMOS? <i class="fas fa-users"></i></a>
                             </li>
                             <li>
-                                <a href="../../APP/componentes/paginas/desarrolladores.html"><i class="fas fa-smile"></i> DESARROYADORES</a>
+                                <a href="?c=Pag&m=desarro"><i class="fas fa-smile"></i> DESARROYADORES</a>
                             </li>
                             <li>
-                                <a href="../../APP/componentes/paginas/contacto.html">CONTACTO <i class="fas fa-map-marked-alt"></i></a>
+                                <a href="?c=Pag&m=contacto">CONTACTO <i class="fas fa-map-marked-alt"></i></a>
                             </li>
                             <li>
-                                <a href="../../index.html"> <i class="fas fa-sign-out-alt"></i>SALIR</a>
+                                <a href="?c=All&m=index"> <i class="fas fa-sign-out-alt"></i>SALIR</a>
                             </li>
                         </ul>
                     </nav>

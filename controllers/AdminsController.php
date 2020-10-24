@@ -50,6 +50,15 @@ class AdminsController extends Administrador{
 
     }
 
+    public function update(){
+        $Usuario= ($_POST['usuario']);
+        $Email= ($_POST['email']);
+        $Clave= ($_POST['clave']);
+        parent::updateUsuario($id,$Usuario,$Email,$Clave);
+        header('location:?c=Admins&m=consultarUser');
+
+    }
+
     
 
 

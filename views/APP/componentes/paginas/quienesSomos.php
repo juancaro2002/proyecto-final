@@ -43,15 +43,19 @@
                     </nav>
                 </div>
                 <div class="d-flex flex-row bd-highlight col-md-12">
-                    <div class="col-md-6 p-3 bd-highlight" style="text-align: center; background-color: rgba(255, 255, 255, 0.5); border-right: black 3px solid ">
-                        <h1>KEVIN</h1>
+                    <div class="col-md-4 p-3 bd-highlight" style="text-align: center; background-color: rgba(255, 255, 255, 0.5); border-right: black 3px solid ">
+                        <h1>MISION</h1>
 
 
                     </div>
+                    <div class="col-md-4 p-5 bd-highlight" style="margin-top: 2%; text-align: center; background-color: rgba(255, 255, 255, 0.5); border-right: black 3px solid ">
 
-                    <div class="col-md-6 p-3 bd-highlight" style="text-align: center; background-color: rgba(255, 255, 255, 0.5);">
+                        <h1> ¿QUIENES SOMOS?</h1>
 
-                        <h1>JUAN</h1>
+                    </div>
+                    <div class="col-md-4 p-3 bd-highlight" style="text-align: center; background-color: rgba(255, 255, 255, 0.5);">
+
+                        <h1>VISION</h1>
                     </div>
                 </div>
 

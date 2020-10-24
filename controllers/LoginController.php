@@ -24,7 +24,7 @@ class LoginController extends login{
         if($Email==$Usuario->email && $Clave== $Usuario->clave && $Cargo==$Usuario->fk_cargo_contratista){
          
             $_SESSION['user']=$Usuario;
-            header("location:?c=admins&m=admins");
+            header("location:?c=Admins&m=admins");
 
             
         }else{
@@ -44,7 +44,7 @@ class LoginController extends login{
         if($Email==$Usuario->email && $Clave== $Usuario->clave && $Cargo==$Usuario->fk_cargo_contratista){
          
             $_SESSION['user']=$Usuario;
-            header("location:?c=instructores&m=instruc");
+            header("location:?c=Instructores&m=instruc");
 
             
         }else{

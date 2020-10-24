@@ -18,3 +18,7 @@
 }
 
 ?>
+
+
+
+instructor como le comento tengo muchos problemas con el internet, estoy en el celular con los datos  y no puedo presentar nuestro proyecto por los mismos problema con el Internet. entonces quería saber si existe la posibilidad que se lo podamos presentar el dia de mañana?
